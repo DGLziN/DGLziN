@@ -1,0 +1,15 @@
+# Entrada de dados
+
+cel = int(input('Informe a temperatura em Celsius: '))
+
+#Processamento de dados
+
+fah = ((cel) * (9.0/5.0)) + 32
+
+kel = ((cel) + 273.15)
+
+#Saída de dados
+
+print('A temperatura em Fahrenheit é:', fah, 'ºF')
+
+print('A temperatura em Kelvin é:', kel, 'ºK')
